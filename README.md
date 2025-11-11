@@ -26,9 +26,9 @@
 
 ## 🎯 Quick Start
 
-### download the files below
+### Download PPHP
 
-[![Download](pphp-1.0.0)](https://github.com/feny1/PPHP/blob/main/pphp-1.0.0.zip)
+[![Download PPHP v1.0.0](https://img.shields.io/badge/Download-PPHP%20v1.0.0-success?style=for-the-badge&logo=github)](https://github.com/feny1/PPHP/raw/main/pphp-1.0.0.zip)
 
 ### 1. Create a PPHP file
 Create any `.pphp` file with your content:
