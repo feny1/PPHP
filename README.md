@@ -2,7 +2,9 @@
 
 > **A minimal, elegant template language that keeps web development simple and clean.**
 
-## � Features
+[![Install Extension](https://img.shields.io/badge/VS%20Code-Install%20Extension-blue?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=FenyEhabYar.pphp-extension)
+
+## 🚀 Features
 
 - **Zero Configuration** - Just write `.pphp` files with `KEY = VALUE` syntax
 - **Beautiful Templates** - Pre-built, responsive designs ready to use
