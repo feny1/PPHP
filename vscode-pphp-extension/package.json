@@ -1,0 +1,49 @@
+{
+    "name": "pphp-extension",
+    "displayName": "PPHP Support",
+    "description": "Provides syntax highlighting and support for PPHP files.",
+    "version": "0.9.11",
+    "repository": {},
+    "publisher": "Feny_EhabYar",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "pphp-icons",
+                "label": "PPHP Icons",
+                "path": "./fileicons/pphp-icons-icon-theme.json"
+            }
+        ],
+        "languages": [
+            {
+                "id": "pphp",
+                "aliases": [
+                    "PPHP",
+                    "pphp"
+                ],
+                "extensions": [
+                    ".pphp"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "pphp",
+                "scopeName": "source.pphp",
+                "path": "./syntaxes/pphp.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "pphp",
+                "path": "./snippets/pphp.code-snippets"
+            }
+        ]
+    }
+}

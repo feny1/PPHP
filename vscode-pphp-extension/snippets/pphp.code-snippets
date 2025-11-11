@@ -1,0 +1,45 @@
+{
+    "WELCOMING": {
+        "prefix": "WELCOMING",
+        "body": [
+            "WELCOMING = "
+        ],
+        "description": "Defines a welcoming message ( e.g., WELCOMING = Hello, World! )"
+
+    },
+    "DESCRIPTION":{
+        "prefix": "DESCRIPTION",
+        "body": [
+            "DESCRIPTION = "
+        ],
+        "description": "Defines a description message ( e.g., DESCRIPTION = This is a description. )"
+    },
+    "TYPE":{
+        "prefix": "TYPE",
+        "body": [
+            "TYPE = ${1|dashboard,welcoming|}"
+        ],
+        "description": "Defines a type ( e.g., TYPE = dashboard )"
+    },
+    "TITLE":{
+        "prefix": "TITLE",
+        "body": [
+            "TITLE = ${1|Dashboard,Welcome|}"
+        ],
+        "description": "Defines a title ( e.g., TITLE = Dashboard )"
+    },
+    "FEATURE":{
+        "prefix": "FEATURE",
+        "body": [
+            "FEATURE = ${1|feature1,feature2,feature3|}"
+        ],
+        "description": "Defines a feature ( e.g., FEATURE = feature1 )"
+    },
+    "ITEM":{
+        "prefix": "ITEM",
+        "body": [
+            "ITEM = ${1|item1,item2,item3|}"
+        ],
+        "description": "Defines an item ( e.g., ITEM = item1 )"
+    }
+}

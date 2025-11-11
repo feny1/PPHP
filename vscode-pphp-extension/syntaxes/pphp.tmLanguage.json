@@ -1,0 +1,54 @@
+{
+    "scopeName": "source.pphp",
+    "name": "PPHP",
+    "patterns": [
+        {
+            "match": "\\bWELCOMING\\b",
+            "name": "keyword.welcoming.pphp"
+        },
+        {
+            "match": "\\bDESCRIPTION\\b",
+            "name": "keyword.description.pphp"
+        },
+        {
+            "match": "\\bTYPE\\b",
+            "name": "keyword.control.type.pphp"
+        },
+        {
+            "match": "\\bEND\\b",
+            "name": "keyword.end.pphp"
+        },
+        {
+            "match": "\\bIF\\b|\\bELSEIF\\b|\\bELSE\\b",
+            "name": "keyword.control.conditional.pphp"
+        },
+        {
+            "match": "\\bREPEAT\\b|\\bUNTIL\\b",
+            "name": "keyword.control.loop.pphp"
+        },
+        {
+            "match": "\\bDISPLAY\\b|\\bACCEPT\\b",
+            "name": "keyword.io.pphp"
+        },
+        {
+            "match": "\\bFUNCTION\\b|\\bRETURN\\b",
+            "name": "keyword.function.pphp"
+        },
+        {
+            "match": "\\bITEM\\b",
+            "name": "keyword.item.pphp"
+        },
+        {
+            "match": "\\bFEATURE\\b",
+            "name": "keyword.feature.pphp"
+        },
+        {
+            "match": "\\b[A-Z_]+\\b(?=\\s*=)",
+            "name": "variable.other.constant.pphp"
+        },
+        {
+            "match":"^(?!\\b[A-Z_]+\\b(?=\\s*=)).*$",
+            "name": "comment.line.pphp"
+        }
+    ]
+}

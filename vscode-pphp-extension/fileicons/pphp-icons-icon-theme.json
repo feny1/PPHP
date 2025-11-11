@@ -1,0 +1,13 @@
+{
+    "iconDefinitions": {
+        "pphp-file": {
+            "iconPath": "../icons/pphp.png"
+        }
+    },
+    "fileExtensions": {
+        "pphp": "pphp-file"
+    },
+    "languageIds": {
+        "pphp": "pphp-file"
+    }
+}
