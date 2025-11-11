@@ -28,6 +28,7 @@
 
 ### download the files below
 
+[![Download](pphp-1.0.0)](https://github.com/feny1/PPHP/blob/main/pphp-1.0.0.zip)
 
 ### 1. Create a PPHP file
 Create any `.pphp` file with your content:
