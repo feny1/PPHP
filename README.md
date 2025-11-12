@@ -1,6 +1,6 @@
 # PPHP - Page PHP
 
-[![Open on Reddit](https://img.shields.io/badge/Reddit-View%20Post-orange?style=for-the-badge&logo=reddit)](https://www.reddit.com/r/t5_fvphm8/s/mTLzwkZ98h)
+[![Open on Reddit](https://img.shields.io/badge/Reddit-View%20community-orange?style=for-the-badge&logo=reddit)](https://www.reddit.com/r/pphp_language)
 
 > **A minimal, elegant template language that keeps web development simple and clean.**
 
