@@ -35,8 +35,11 @@ Create any `.pphp` file with your content:
 
 **Example: test.pphp**
 
+[![View Live Demo](https://img.shields.io/badge/Live%20Demo-View%20Test%20Page-brightgreen?style=for-the-badge&logo=googlechrome)](https://pphp.eny.sa?path=test)
+
 ![PPHP Example](https://github.com/feny1/PPHP/raw/main/images/image.png)
-[The test.PPHP file](https://github.com/feny1/PPHP/raw/main/test.pphp)
+
+[![View Source Code](https://img.shields.io/badge/Source-test.pphp-blue?style=flat-square&logo=github)](https://github.com/feny1/PPHP/raw/main/test.pphp)
 
 **Example: profile.pphp**
 ```pphp

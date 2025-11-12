@@ -1,0 +1,40 @@
+TYPE = landing
+TITLE = PPHP - Page PHP | Official Website
+TAGLINE = A Minimal, Elegant Template Language
+DESCRIPTION = PPHP is a simple yet powerful template language that keeps web development clean and intuitive. Write beautiful pages with simple KEY = VALUE syntax.
+
+# Hero Section
+HERO_TITLE = PPHP - Page PHP
+HERO_SUBTITLE = The Minimalist Template Language for Modern Web Development
+HERO_DESCRIPTION = Build stunning web pages with zero complexity. PPHP combines simplicity with power, letting you focus on content while we handle the rest.
+CTA_PRIMARY = Get Started
+CTA_SECONDARY = View Documentation
+
+# Features
+FEATURES = <<OBJECTS>> icon => 🚀, title => Zero Configuration, description => No setup required. Just create .pphp files and start building. | icon => ⚡, title => Lightning Fast, description => Minimal overhead means your pages load instantly with maximum performance. | icon => 🎨, title => Beautiful Templates, description => Pre-built responsive templates ready to use. Professional designs out of the box. | icon => 📝, title => Clean Syntax, description => Simple KEY = VALUE pairs. No complex markup or steep learning curves. | icon => 🔧, title => Highly Extensible, description => Create custom templates easily. Full flexibility when you need it. | icon => 💻, title => VS Code Support, description => Syntax highlighting and snippets included. Perfect developer experience.
+
+# Code Examples
+EXAMPLE_SIMPLE_TITLE = Simple and Intuitive
+EXAMPLE_SIMPLE_CODE = TYPE = profile\nNAME = John Doe\nEMAIL = john@example.com\nROLE = Developer
+
+EXAMPLE_LIST_TITLE = Powerful Data Structures
+EXAMPLE_LIST_CODE = SKILLS = <<LIST>> PHP | JavaScript | Python\nTEAM = <<OBJECTS>> name => Alice, role => Developer | name => Bob, role => Designer
+
+# Statistics
+STATS = <<OBJECTS>> number => 100%, title => Open Source, description => MIT Licensed | number => 3, title => Data Types, description => Lists, Objects, Arrays | number => v2.0, title => Latest Version, description => Stable Release | number => 2024, title => Active Project, description => Maintained
+
+# Testimonials
+# TESTIMONIALS = <<OBJECTS>> author => Ahmed Al-Rashid, role => Web Developer, company => Saudi Digital Solutions, rating => 5, quote => PPHP made building our company website incredibly fast. The syntax is so clean and intuitive! | author => Fatima Hassan, role => Frontend Developer, company => Tech Innovations KSA, rating => 5, quote => Love how simple it is to create beautiful pages. No more wrestling with complex templating systems. | author => Omar Abdullah, role => Freelance Developer, company => Independent Contractor, rating => 5, quote => Perfect for rapid prototyping. I can pitch ideas to clients with working demos in minutes.
+
+# Call to Action
+CTA_TITLE = Ready to Simplify Your Development?
+CTA_DESCRIPTION = Join developers worldwide who are building faster with PPHP. Get started in under 5 minutes.
+CTA_BUTTON = Download PPHP
+
+# Footer
+FOOTER_TAGLINE = Making web development simple and elegant
+FOOTER_LINKS = <<OBJECTS>> text => Documentation, url => #docs | text => GitHub Repository, url => https://github.com/feny1/PPHP | text => VS Code Extension, url => https://marketplace.visualstudio.com/items?itemName=FenyEhabYar.pphp-extension | text => License, url => #license
+FOOTER_SOCIAL = <<OBJECTS>> platform => GitHub, icon => 💻, url => https://github.com/feny1/PPHP | platform => Twitter, icon => 🐦, url => # | platform => Discord, icon => 💬, url => #
+AUTHOR = Ehab Yar
+AUTHOR_WEBSITE = https://eny.sa
+YEAR = 2024
