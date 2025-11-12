@@ -35,7 +35,7 @@ Create any `.pphp` file with your content:
 
 **Example: test.pphp**
 
-![PPHP Example](./images/images.png)
+![PPHP Example](https://github.com/feny1/PPHP/raw/main/images/images.png)
 
 **Example: profile.pphp**
 ```pphp
