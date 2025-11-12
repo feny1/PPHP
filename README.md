@@ -1,7 +1,5 @@
 # PPHP - Page PHP
 
-[![Open on Reddit](https://img.shields.io/badge/Reddit-View%20community-orange?style=for-the-badge&logo=reddit)](https://www.reddit.com/r/pphp_language)
-
 > **A minimal, elegant template language that keeps web development simple and clean.**
 
 [![Install Extension](https://img.shields.io/badge/VS%20Code-Install%20Extension-blue?style=for-the-badge&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=FenyEhabYar.pphp-extension)
@@ -265,6 +263,8 @@ Free to use and modify for your projects!
 - Website: [https://eny.sa](https://eny.sa)
 - Date Created: November 11, 2024
 
+[![Open on Reddit](https://img.shields.io/badge/Reddit-View%20community-orange?style=for-the-badge&logo=reddit)](https://www.reddit.com/r/pphp_language)
+[![Follow on X](https://img.shields.io/badge/X-%40_f__eny-black?style=for-the-badge&logo=x)](https://x.com/_f_eny)
 ---
 
 **Made with ❤️ for simplicity**
