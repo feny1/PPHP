@@ -53,6 +53,41 @@ foreach ($lines as $line) {
             $vars[trim($key)] = array_map('trim', $items);
             continue;
         }
+        // i want the list can have objects like {k1 => v1,k2 => v2,k3 => v3}
+        
+        if (strpos($value, '<<OBJECT>>') !== false) {
+            $value = str_replace('<<OBJECT>>', '', $value);
+            $items = explode(',', $value);
+            $obj = [];
+            foreach ($items as $item) {
+                if (strpos($item, '=>') !== false) {
+                    list($k, $v) = explode('=>', $item, 2);
+                    $obj[trim($k)] = trim($v);
+                }
+            }
+            $vars[trim($key)] = $obj;
+            continue;
+        }
+        
+        // i want the list can have objects like {k1 => v1,k2 => v2,k3 => v3}
+        if (strpos($value, '<<OBJECTS>>') !== false) {
+            $value = str_replace('<<OBJECTS>>', '', $value);
+            $items = explode('|', $value);
+            $obj = [];
+            foreach ($items as $item) {
+                $objItem = [];
+                $pairs = explode(',', $item);
+                foreach ($pairs as $pair) {
+                    if (strpos($pair, '=>') !== false) {
+                        list($k, $v) = explode('=>', $pair, 2);
+                        $objItem[trim($k)] = trim($v);
+                    }
+                }
+                $obj[] = $objItem;
+            }
+            $vars[trim($key)] = $obj;
+            continue;
+        }
         $vars[trim($key)] = trim($value);
     }
 }

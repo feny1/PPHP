@@ -3,6 +3,18 @@
     "name": "PPHP",
     "patterns": [
         {
+            "match": "<<OBJECTS>>",
+            "name": "keyword.control.pphp"
+        },
+        {
+            "match": "<<OBJECT>>",
+            "name": "keyword.control.pphp"
+        },
+        {
+            "match": "<<LIST>>",
+            "name": "keyword.control.pphp"
+        },  
+        {
             "match": "\\bWELCOMING\\b",
             "name": "keyword.welcoming.pphp"
         },

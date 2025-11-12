@@ -2,9 +2,17 @@
     "name": "pphp-extension",
     "displayName": "PPHP Support",
     "description": "Provides syntax highlighting and support for PPHP files.",
-    "version": "0.9.12",
+    "version": "0.9.28",
     "repository": {},
     "publisher": "FenyEhabYar",
+    "icon": "icons/pphp.png",
+    "main": "./extension.js",
+    "activationEvents": [
+        "onLanguage:pphp"
+    ],
+    "galleryBanner": {
+        "color": "#a31ec1"
+    },
     "engines": {
         "vscode": "^1.50.0"
     },
@@ -42,7 +50,7 @@
         "snippets": [
             {
                 "language": "pphp",
-                "path": "./snippets/pphp.code-snippets"
+                "path": "./snippets/pphp.json"
             }
         ]
     }

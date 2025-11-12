@@ -1,0 +1,41 @@
+TYPE = test
+TITLE = PPHP Complete Example - All Features
+HEADING = PPHP Syntax Examples
+
+# Simple Variables
+NAME = John Doe
+EMAIL = john@example.com
+WEBSITE = https://example.com
+DESCRIPTION = This is a demonstration of all PPHP syntax features and data types.
+
+# Numbers
+AGE = 30
+EXPERIENCE = 5+
+PROJECTS_COUNT = 100+
+
+# Lists with <<LIST>>
+SKILLS = <<LIST>> PHP | JavaScript | Python | React | Node.js | Docker
+HOBBIES = <<LIST>> Coding | Reading | Photography | Travel
+MENU_ITEMS = <<LIST>> Home | About | Services | Portfolio | Contact
+
+# Single Object with <<OBJECT>>
+USER_INFO = <<OBJECT>> username => johndoe, role => Administrator, status => Active, joined => 2024
+SETTINGS = <<OBJECT>> theme => dark, language => en, notifications => enabled, timezone => UTC
+CONTACT = <<OBJECT>> phone => +1234567890, address => 123 Main St, city => New York, country => USA
+
+# Array of Objects with <<OBJECTS>>
+TEAM_MEMBERS = <<OBJECTS>> name => Alice Johnson, role => Lead Developer, email => alice@example.com | name => Bob Smith, role => UI/UX Designer, email => bob@example.com | name => Carol White, role => Project Manager, email => carol@example.com | name => David Brown, role => QA Engineer, email => david@example.com
+
+PORTFOLIO_ITEMS = <<OBJECTS>> title => E-commerce Platform, tech => React/Node.js, year => 2024 | title => Mobile Banking App, tech => Flutter/Firebase, year => 2023 | title => CRM System, tech => Laravel/Vue.js, year => 2023
+
+SOCIAL_LINKS = <<OBJECTS>> platform => GitHub, icon => 💻, url => https://github.com/johndoe | platform => Twitter, icon => 🐦, url => https://twitter.com/johndoe | platform => LinkedIn, icon => 💼, url => https://linkedin.com/in/johndoe
+
+SERVICES = <<OBJECTS>> name => Web Development, description => Full-stack web applications, price => $5000+ | name => Mobile Apps, description => iOS and Android development, price => $8000+ | name => UI/UX Design, description => Beautiful user interfaces, price => $3000+
+
+# More Examples
+COLORS = <<LIST>> Red | Blue | Green | Yellow | Purple
+FEATURES = <<LIST>> Fast Performance | Secure | Scalable | Easy to Use | Well Documented
+
+PRODUCT = <<OBJECT>> id => 12345, name => Premium Package, price => 99.99, currency => USD, available => yes
+
+TESTIMONIALS = <<OBJECTS>> author => Jane Doe, rating => 5, comment => Excellent work! | author => Mike Johnson, rating => 5, comment => Very professional | author => Sarah Wilson, rating => 4, comment => Great experience
