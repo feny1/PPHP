@@ -33,7 +33,11 @@
 ### 1. Create a PPHP file
 Create any `.pphp` file with your content:
 
-**profile.pphp**
+**Example: test.pphp**
+
+![PPHP Example](./images/images.png)
+
+**Example: profile.pphp**
 ```pphp
 TYPE = profile
 NAME = Alex Johnson
