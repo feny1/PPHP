@@ -28,8 +28,8 @@
 
 ### Download PPHP
 
-[![Download PPHP v1.0.0](https://img.shields.io/badge/Download-PPHP%20v1.0.0-success?style=for-the-badge&logo=github)](https://github.com/feny1/PPHP/raw/main/versions/pphp-2.0.0.zip)
-
+[![Download PPHP v2.0.0 (Recommended)](https://img.shields.io/badge/Download-PPHP%20v2.0.0-success?style=for-the-badge&logo=github)](https://github.com/feny1/PPHP/raw/main/versions/pphp-2.0.0.zip)
+[![Download PPHP v1.0.0](https://img.shields.io/badge/Download-PPHP%20v1.0.0-success?style=for-the-badge&logo=github)](https://github.com/feny1/PPHP/raw/main/versions/pphp-1.0.0.zip)
 ### 1. Create a PPHP file
 Create any `.pphp` file with your content:
 
