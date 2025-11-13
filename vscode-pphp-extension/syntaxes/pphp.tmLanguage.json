@@ -55,11 +55,11 @@
             "name": "keyword.feature.pphp"
         },
         {
-            "match": "\\b[A-Z_]+\\b(?=\\s*=)",
+            "match": "\\b[A-Z0-9_]+\\b(?=\\s*=)",
             "name": "variable.other.constant.pphp"
         },
         {
-            "match":"^(?!\\b[A-Z_]+\\b(?=\\s*=)).*$",
+            "match":"^(?!\\b[A-Z0-9_]+\\b(?=\\s*=)).*$",
             "name": "comment.line.pphp"
         }
     ]
