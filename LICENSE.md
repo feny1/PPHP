@@ -1,7 +1,6 @@
-
 MIT License
 
-Copyright (c) 2025 ehab yar (github: feny1)
+Copyright (c) 2025 Ehab Yar (GitHub: feny1)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
